@@ -9,7 +9,7 @@ export const HeroPage = () => {
   const navigate = useNavigate();
 
   const onReturn = () => {
-    navigate(-1, {replace: true} );
+    navigate(-1);
   };
 
   if (!hero) {
